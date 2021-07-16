@@ -12,7 +12,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function App() {
     const history = useHistory();
     const [ user, setUser ] = useState('');
-    const [ error, setError ] = useState(true);
+    const [ error, setError ] = useState(false);
     const [ email, setEmail ] = useState('');
 
     const endLinkedin = 'https://www.linkedin.com/in/michell-mello-957433a/';
